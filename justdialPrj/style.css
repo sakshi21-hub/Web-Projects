@@ -1,0 +1,41 @@
+.justify{
+    justify-content: space-between;
+}
+.text{
+    font-size: small;
+}
+.deco{
+    text-decoration: none;
+}
+.social
+{
+    
+    width:60px;
+    height: 150px;
+    position: fixed;
+    right:0;
+    top:40%;
+}
+.text2
+{
+    font-weight: bold;
+    font-size: medium;
+}
+a {
+    text-decoration: none;
+}
+.border {
+    border: 10px;
+
+  }
+
+  
+.raleway {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .color{
+    background-color: rgb(100, 153, 21);
+  } 

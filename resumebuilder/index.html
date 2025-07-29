@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ResumeBuilder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div id="form-section">
+      <h1>Resume Builder</h1>
+      <form id="resume-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" placeholder="Your Phone Number" required>
+
+        <label for="skills">Skills (comma separated):</label>
+        <input type="text" id="skills" placeholder="Skill 1, Skill 2, Skill 3" required>
+         <br><br>
+        <label for="experience">Work Experience:</label>
+        <textarea id="experience" placeholder="Your Work Experience" required></textarea>
+
+        <button type="submit">Generate Resume</button>
+      </form>
+    </div>
+
+    <div id="resume-section" class="hidden">
+      <h1>My Resume</h1>
+      <div id="resume">
+        <!-- Generated resume will be shown here -->
+      </div>
+      <button onclick="goBackToForm()">Edit Resume</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

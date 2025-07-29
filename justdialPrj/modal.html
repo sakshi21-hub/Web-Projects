@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <img id="myImage" src="images/" alt="Thumbnail" style="width:200px;cursor:pointer">
+    <div class="text-center mt-5">
+        <button type="button" class="btn btn-primary border-1 border-dark" data-bs-toggle="modal"
+            data-bs-target="#login">Login</button>
+
+        <button type="button" class="btn btn-primary border-1 border-dark" data-bs-toggle="modal"
+            data-bs-target="#reg">Register</button>
+    </div>
+    <!-- login  Modal start -->
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div>
+                        <form>
+                            <input type="email" name="em" class="form-control  mt-3" placeholder="enter email id">
+                            <input type="password" class="form-control  mt-3" name="pwd" placeholder="enter password ">
+                            <div class="text-center mt-3">
+                                <input type="submit" value="login" class="btn btn-primary border-1 border-dark">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- log in modal end -->
+
+</body>
+
+</html>
